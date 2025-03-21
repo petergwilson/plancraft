@@ -30,6 +30,14 @@
 *Viewer and editor
 * **Will probably need a Jupyter lab or similar interface to enable the expert system for building an iPlan**
 
+## Things to think about
+* Will need SAML authentication and role based access control (RBAC).
+* Other things, security incident response policy
+* IT Disaster recovery plan
+* ISO 27001 certification.
+* How it is sold - no code interface. Minimal IT set up, integration. "Narrow and deep"
+  
+
 
 * Take existing known servers
 
