@@ -44,14 +44,7 @@
 
 
 
-###December 2024:
-
-
-
-
-
-
-
+### December 2024:
 
 Old main components early 2024:
 Scraper.py - scrape Isovist websites for content,save HTML files chapter by chapter
