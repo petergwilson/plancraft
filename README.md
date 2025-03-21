@@ -1,5 +1,27 @@
-# plancraft
-Advanced planning and regulatory software
+# plancraft / regcraft
+## Advanced planning and regulatory software, 
+Peter Wilson, 2024
+Wilson Environmental Limited
+
+## Outline
+The development, maintenance, implementation, and evaluation of planning and regulatory documents - both government and private - remains a largely manual process. 
+There are substantial overlaps between software engineering in the development, and maintenance of policy documents. However, given the non-machine/human intended users of these documents
+the implementation and evaluation cycles of the planning process currently remain substantially outside of the computable realm. This is despite a substantial data universe, both spatial
+and non-spatial information being available. 
+
+![image](https://github.com/user-attachments/assets/578c9938-9232-4e29-a104-9a053e870bb1)
+Caption: Quality Planning, https://www.qualityplanning.org.nz/sites/default/files/inline-images/planning_process_cycle.png
+
+## The plancraft research
+
+Policies, plans, rules, and regulatory documents are code - of a form. The writers of them engage in mental challenges similar to software engineers. 
+However, policies, plans, and rules are not machine interpretable. The vast amount of data that explains, or may explain, the regulatory environments is not available to 
+
+
+
+
+
+
 
 Main components:
 Scraper.py - scrape Isovist websites for content,save HTML files chapter by chapter
