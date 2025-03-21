@@ -1,5 +1,6 @@
 # plancraft / regcraft
-## Advanced planning and regulatory software, 
+## Advanced planning and regulatory software
+
 Peter Wilson, 2024
 Wilson Environmental Limited
 
@@ -14,8 +15,14 @@ Caption: Quality Planning, https://www.qualityplanning.org.nz/sites/default/file
 
 ## The plancraft research
 
-Policies, plans, rules, and regulatory documents are code - of a form. The writers of them engage in mental challenges similar to software engineers. 
-However, policies, plans, and rules are not machine interpretable. The vast amount of data that explains, or may explain, the regulatory environments is not available to 
+* Policies, plans, rules, and regulatory documents are code. They are maps, codes, instructions, algorithms for particular tasks. 
+* The writers of them engage in mental challenges similar to software engineers in their development, they are subject to similar scrutiny and peer-review as software. 
+* However, currently there is a key difference - policies, plans, and rules are not machine interpretable. The vast amount of data that explains, or may explain, a particular regulatory environments is not machine accessible or available.
+* Manual processes are still the basis for policy and regulatory development and implementation
+* There is no automation or semi-automation in evaluation and review either.
+* Given the legal context in which regulatory documents exist, AI is not currently an answer, as repeated, reliable, and traceable results are required.
+* 
+
 
 
 
