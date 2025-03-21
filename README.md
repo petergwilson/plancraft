@@ -24,7 +24,9 @@ Caption: Quality Planning, https://www.qualityplanning.org.nz/sites/default/file
 * Practioners must have confidence in any results
 * To have confidence in results, requires a workflow and design philosophy where results are transparent and reproducible. 
 * Practioner confidence is also greatly enhanced by being able to contribute to results and workflows, and to receive peer recognition for contributions.
-* **This last point is perhaps the most important - any system is limited by the support of its users - particularly when the context is legal. Thus, closed-source approaches will always have their limits and open source approaches may be better
+* **This last point is perhaps the most important - any system is limited by the support of its users - particularly when the context is legal. Thus, closed-source approaches will always have their limits and open source approaches may be better 
+suited**
+
 
 ## The plancraft research challenge
 
@@ -33,45 +35,28 @@ Caption: Quality Planning, https://www.qualityplanning.org.nz/sites/default/file
 * Plans have a fundamental relationship with space and place, so text and any logic is always bounded in location. Geospatial integration is implicit.
 * Version control is implicit and essential, but not handled well in current approaches.
 #### Fundamental R&D challenge 1
-Turning regulatory logic into computer logic, whilst ensuring transparency and repeatability in doing so. 
+Turning regulatory logic into computer logic, whilst ensuring transparency and repeatability in doing so. Approaches to achievement include:
+* Parser that is designed for regulatory language
+* Control, flow, and logic detection parser
+* Graphical flow structures for human confirmation
 
-### Computablity of context
+### Computablity and identification of geospatial context
 * Plans contain contextual links in text to space and place, with complex and overlapping bounds of space and time at various scales.
-* Substantial electronic geospatial information exists to link text to space and place, however, there is no consistent system that can easily undertake that task for any given document corpus
-* 
+* These links need to be identified. 
+* Substantial electronic geospatial information exists to link text to space and place, however, there is no current approach for any given document corpus within defined spatial parameters whilst still ensuring computability and algorithmic efficiency.
+
+#### Fundamental R&D challenge 2
+Linking spatial and aspatial information. Approaches to achievement include:
+* Geoscraping and discovery, to automate the understanding, of what data may or may not be available in any given context
+* Linking vectors for terms within documents to spatial scope.
+* The same approach of a linking vector may extend to legal and other contexts too
+
+### Version control
+* Regulatory documents struggle with version control approaches that have been resolved by software engineers many years ago
+* It is not a particular R&D task, however, the human interface component needs careful thought - it must work for people where they are now.
+* This means Microsoft Office integration, combined with a git, or git-like approach for version control. 
 
 
-
-
-
-
-
-Main components:
-Scraper.py - scrape Isovist websites for content,save HTML files chapter by chapter
-parser.php - get content from HTML files, save to database
-
-To do: Work selenium code to get Variations, other versions etc
-Reverse engineer classes to get information on the document - eg cross references
-Can use <data-rule-id> tags for using same id tags as Isovist
-
-Check rest of Isovist URL for how it handles variations etc....
-
-planbase - wrapper logic for postgresql. 
-Every item is put into postgresql - need to work out schema. Something for plaintext, something for HTML, etc, something for links, something for machine interpretation, something for vectors, something for GIS links, something that stores the plan logic. 
-NEED TO WORK OUT HOW TO STORE IT. Most likely as HTML, could also do direct word integration with another way (but hard). 
-
-Any direct word integration needs a way of storing the separation in word - could be by way of styles
-
-word integration: a toolbar, stylesheets, etc that enable word integration. 
-
-Some version of git, that runs on the text. NEED TO WORK OUT GIT in greater detail. It would be sub-versions, you'd then merge with the master... 
-
-Plan logic - some excel like version that enables moving rules around, renumbering etc. Could be excel, it's best suited. Could also be the web. TEND TOWARDS EXCEL. Especially given excel connectors etc
-Which means - VBA!!!
-
-Helper - the thing that works through an application
-
-SpatialIntelligence - LINZ tool... 
 
 
 
