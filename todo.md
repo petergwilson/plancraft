@@ -1,5 +1,16 @@
 ### Project fundamentals:
 
+## pc_system
+* Needs the following components
+* Timescale postgresql - mainly for the geospatial layers
+* Postgresql structure - probably object files that own other object files - linked list/tree, can replicate the git structure
+* Also needs a plaintext/html text/maybe word text function on top of the git integration - this is document schema specific
+* **This structure replicated in typescript for the MS Office Add-in**
+* So particular scraping tasks get particular scraping/postgres schemas 
+* Git integration - maybe with a foreign data wrapper. This way git version control does not need to be rebuilt in Postgres
+* If git is used independently, how does Postgres know - maybe daily cache updates unless otherwise triggered or specified?
+* 
+
 ## pc_parser
 
 * To detect plan/regulatory logic in text and build control structures etc. 
@@ -18,11 +29,13 @@
 * **Killer app** for enabling easy monitoring, evaluation, and compliance based on varying digital twin sources
   
 ## plancraft add-in for MS Office
+## pc_ms_word & pc_ms_excel
+* **How does typescript call the database?**
 * Enabling direct communication between Office and plancraft server
 * Needs careful thought to data formats - most likely HTML
 * Needs careful thought as to version management and control.
 * Most likely git is used alongside the database. Or database approach takes a similar approach to git - given the amount of info things can build up.
-* How to handle styles etc.
+* How to handle styles etc
 * **Killer app**
 
 ## plancraft web-app
